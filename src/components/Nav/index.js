@@ -1,37 +1,59 @@
 import React from 'react';
-import {capitalizeFirstLetter} from '../../utils/helpers';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import profPic from '../../imgs/profpic.jpg';
 
 function Nav (props) {
-    const  { navTab = [], setCurrentNavTab, currentNavTab, setCurrentMobile, currentMobile} = props;
+    const  { nav = [], setCurrentNav, currentNav, setCurrentMobile, currentMobile} = props;
     
     return (
         <header id='header'>
-            <div className='d-flex flex-row'>
-                <h1 className='text-light'>
-                <a href='/'>Gabriel Reches</a>
-                </h1>
-            </div>
+            <div className='flex-row'>
+            <div className="profile">
+          <img src={profPic} alt="" className="img-fluid rounded-circle" />
+          <h1 className="text-light">
+            <a href="index.html">Gabriel Reches</a>
+          </h1>
+          <div className="social-links mt-3 text-center">
+            <a
+              href="https://github.com/Grech17"
+              target="blank"
+              className="github">
+              <i className="bx bxl-github" alt="">
+                <AiFillGithub />
+              </i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gir98"
+              target="blank"
+              className="linkedin">
+              <i className="bx bxl-linkedin">
+                <AiFillLinkedin />
+              </i>
+            </a>
+          </div>
+          </div>
 
             <nav className='nav-menu'>
-                <ul className='flex-row'>
-                    <li className={`mx-1 ${currentNavTab === 'About' ? 'navActive' : ''}`}>
-                        <a href='#about' 
-                        onClick={() => setCurrentNavTab('About')}>
-                        About</a>
+                <ul>
+                    <li>
+                        <a className={`mx-1 ${currentNav === 'About' ? 'navActive' : ''}`} 
+                        href='#about' 
+                        onClick={() => setCurrentNav('About')}>About</a>
                     </li>
                     
-                    <li className='mx-2'>
-                        <a href='#projects' onClick={() => setCurrentNavTab('Projects')}>
-                        Projects</a>
+                    <li>
+                        <a href='#portfolio' onClick={() => setCurrentNav('Portfolio')}>
+                        Portfolio</a>
                     </li>
 
-                    <li className='mx-2'>
-                        <a href='#resume' onClick={() => setCurrentNavTab('Resume')}>
+                    <li>
+                        <a href='#resume' onClick={() => setCurrentNav('Resume')}>
                         Resume</a>
                     </li>
 
-                    <li className='mx-2'>
-                        <a href='#contact' onClick={() => setCurrentNavTab('Contact')}>
+                    <li>
+                        <a href='#contact' onClick={() => setCurrentNav('Contact')}>
                         Contact</a>
                     </li>
                 </ul>
@@ -42,6 +64,7 @@ function Nav (props) {
                  'icofont-close' : 'icofont-navigation-menu'}`}>
                  </i>
             </button>
+            </div>
         </header>
     )
 }
