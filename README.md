@@ -4,7 +4,7 @@
 This is my portfolio created with react
 
 ### Screenshot
-<img src = "src/imgs/appScreemshot.jpg" alt = "generator preview">
+<img src = "src\imgs\appScreenshot.jpg" alt = "generator preview">
 
 ### Link to App
 https://grech17.github.io/react-portfolio/
