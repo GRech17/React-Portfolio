@@ -7,6 +7,7 @@ import musicSearch from '../../imgs/music search.png';
 import noteTaker from '../../imgs/note-taker.gif';
 import quiz from '../../imgs/quiz.gif';
 import weatherReport from '../../imgs/weather-report.jpg';
+import filmGrabber from '../../imgs/filmGrabber.jpg';
 
 function Portfolio() {
     const [projects] = useState([{
@@ -51,6 +52,15 @@ function Portfolio() {
         image: noteTaker,
         github: 'https://github.com/GRech17/note-taker',
         website: 'https://note-taker-17-app.herokuapp.com/notes',
+        icon1: <AiOutlineEye />,
+        icon2: <AiFillGithub />,
+    },
+    {
+        name: 'Film Grabber',
+        description: 'film saver',
+        image: filmGrabber,
+        github: 'https://github.com/GRech17/film-grabber',
+        website: 'https://film-grabber.herokuapp.com/',
         icon1: <AiOutlineEye />,
         icon2: <AiFillGithub />,
     },
