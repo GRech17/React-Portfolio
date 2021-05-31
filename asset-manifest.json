@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.62ed08c1.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.8e1e04a2.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.8e1e04a2.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.c9e24e27.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c9e24e27.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.f813a7de.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f813a7de.js.map",
     "static/js/2.8aa82737.chunk.js": "/react-portfolio/static/js/2.8aa82737.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.62ed08c1.chunk.css.map": "/react-portfolio/static/css/main.62ed08c1.chunk.css.map",
     "static/js/2.8aa82737.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8aa82737.chunk.js.LICENSE.txt",
     "static/media/day-planner.c99178c1.jpg": "/react-portfolio/static/media/day-planner.c99178c1.jpg",
+    "static/media/filmGrabber.b866b887.jpg": "/react-portfolio/static/media/filmGrabber.b866b887.jpg",
     "static/media/music search.df0bf463.png": "/react-portfolio/static/media/music search.df0bf463.png",
     "static/media/note-taker.4b342fd6.gif": "/react-portfolio/static/media/note-taker.4b342fd6.gif",
     "static/media/profpic.e57fc9f2.jpg": "/react-portfolio/static/media/profpic.e57fc9f2.jpg",
@@ -24,6 +25,6 @@
     "static/js/runtime-main.f813a7de.js",
     "static/js/2.8aa82737.chunk.js",
     "static/css/main.62ed08c1.chunk.css",
-    "static/js/main.8e1e04a2.chunk.js"
+    "static/js/main.c9e24e27.chunk.js"
   ]
 }
